@@ -5,6 +5,7 @@ body{
     font-weight: 400;
     font-style: normal;
 }
+/*all tasks*/
 #task_list_area{
     display: flex;
     justify-content: center;
@@ -49,14 +50,9 @@ body{
     border-color: #5084C1;
     border-style: dashed;
 }
-#add_task{
-    display: flex;
-    align-items: center;
+#img_send{
     height: 34px;
-    width: 96px;
-    border-radius: 8px;
-    margin-left: 24px;
-    background-color: #c7d0db;
+    width: 48px;
 }
 #input{
     display: flex;

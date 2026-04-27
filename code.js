@@ -30,14 +30,18 @@ function add_tasks(info){
 }
 
 const input_information = document.getElementById("new_task")
-const btn = document.getElementById("add_task")
+const btn_send = document.getElementById("img_send")
 
-btn.addEventListener("click", ()=>{
+btn_send.addEventListener("click", send_task)
+btn_send.addEventListener("enter", send_task)
+
+function send_task(){
     if (input_information.value != ""){
-        add_tasks(input_information.value)
+    add_tasks(input_information.value)
     }
     input_information.value = ""
-})
+    }
+
 
 
 function delete_task(task){
