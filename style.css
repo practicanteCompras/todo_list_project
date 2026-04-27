@@ -54,6 +54,11 @@ body{
     height: 34px;
     width: 48px;
 }
+#task_importance{
+    margin-right: 12px;
+    border-radius: 8px;
+    background-color: #5084C1;
+}
 #input{
     display: flex;
     justify-content: center;
